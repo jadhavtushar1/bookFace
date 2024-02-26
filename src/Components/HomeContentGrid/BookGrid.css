@@ -1,0 +1,31 @@
+.bookGridarent{
+   
+    height:50rem;
+    background-color: #746767;
+    margin: 20px;
+    padding: 20px;
+}
+.todaysPick{
+    height:50rem;
+    background-color: #898989;
+    margin: 20px;
+    @media (max-width:700px) {
+        height: 30rem;
+    }
+}
+.wrapCards{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,2fr));
+    gap:15px;
+    /* @media (min-width: 800px) {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      } */
+}
+
+.picksParentContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap:15pxs
+}
+

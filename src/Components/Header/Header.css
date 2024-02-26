@@ -1,0 +1,28 @@
+.header-parent{
+    height: 50px;
+    background-color: #3F4645;
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.hamburger-menu{
+    cursor: pointer;
+    gap: 30px;
+}
+.header-icon{
+    height: 35px;
+    width: 35px;
+ 
+}
+.search-text-field{
+    height: 25px;
+    width: 30vw;
+    background-color: #878585;
+    border:none;
+    border-radius: 5px;
+}
+.profile-icon{
+    padding-top: 5px;
+    aspect-ratio: 3/4;
+
+}

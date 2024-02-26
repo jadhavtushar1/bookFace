@@ -1,0 +1,51 @@
+.carousel-parent{
+    height: 60vh;
+    background-color: #745959;
+    position:relative;
+    
+}
+.carousel-img{
+    height: 200px;
+}
+.arrowIcon{
+    position: absolute;
+    top: 25vh;
+}
+.MuiSvgIcon-root.arrowIcon{
+ height: 50px;
+ width: 50px;
+}
+.arrowLeftPos{
+    left: 10px;
+}
+.arrowRightPos{
+    right: 0px;
+}
+.indicatorDots{
+    position: absolute;
+    bottom: 10px;
+    left: 46vw;
+}
+.carouselImage{
+    height: 60vh;
+}
+.carouselContentParent {
+    display: flex;
+    align-items: flex-start; /* Align items to the start of the container */
+}
+.contentContainer{
+    height: 58vh;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+}
+
+.bookTitle,
+.bookAuthor,
+.bookDesc {
+    margin: 0; /* Remove default margins */
+}
